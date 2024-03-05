@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.mainContent{
+    height: 80vh;
+    width: 82vw;
+    /* border: 1px solid red; */
+    margin: auto;
+    background-color: #f6fdf6;
+    margin-top: 10vh;
+    /* z-index: -1; */
+}
+
+.navBar{
+    width: 80%;
+    height:6vh;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    /* margin-top: 3vh; */
+}
+
+
+.leftGreenContainer{
+    height: 63vh;
+    width: 18vw;
+    background-color: #0a5b5e;
+    position: absolute;
+    transform: translate(0px, -65px);
+    /* z-index: -1; */
+    border-radius: 0px 0px 16.43rem 0px;
+}
+
+
+.navBarLeft{
+    width: 34vw;
+    /* border: 1px solid red; */
+    display: inline-block;
+    height: 100%;
+    padding: 7px;
+}
+
+.navBarMid{
+    width: 19vw;
+    display: inline-block;
+    border: 2px solid grey;
+    margin-bottom: 5px;
+}
+
+.navBarRight{
+    display: inline-block;
+}
+
+.navBarLeft a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.anchorPadding{
+    margin-left: 50px;
+}
+
+
+.leftImage{
+    display: inline-block;
+    transform: translate(114px,54px);
+}
+
+.leftImageText{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    transform: translate(89px,39px);
+}
+
+.navRightTextHeading{
+    color: black;
+    font-weight: 100;
+    font-size: 22px;
+    margin-left: 12px;
+}
+
+.navBarHash{
+    color: #0a5b5e;
+}
+
+.middleContainer{
+    width: 100%;
+    height: 45vh;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    position: relative;
+}
+
+.middleLeft{
+    width: 76%;
+    height: 100%;
+    display: inline-block;
+}
+
+.middleRight{
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    /* background-color: red; */
+    margin-left: 37px;
+    position: relative;
+}
+
+.middleLeftImage{
+    height: 100%;
+    width: 31%;
+    background-color: #cfd9da;
+    border-radius: 50% 50% 0px 0px;
+    display: inline-block;
+}
+
+.middleLeft{
+    position: relative;
+}
+
+.plantPotImage{
+    height: 276px;
+    position: absolute;
+    transform: translate(-21px,42px);
+    display: inline-block;
+}
+
+.middleLeftText{
+    height: 100%;
+    width: 62%;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.middleLeftText{
+    position: absolute;
+}
+
+.midPara{
+    margin-top: 15px;
+}
+
+.midButton button{
+    margin-top: 15px;
+    width: 9vw;
+    height: 5vh;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+    background-color: #0a5b5e;
+    border: none;
+}
+
+.midHeading h1{
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.midPara p{
+    font-size: 17px;
+    line-height: 1.1;
+}
+
+
+.midRightContent{
+    height: 70%;
+    width: 90%;
+    /* background-color: #0a5b5e; */
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.midRightOne{
+    position: absolute;
+    text-align: center;
+    /* border: 1px solid white; */
+    width: 100%;
+    padding: 9px;
+    background-color: #0a5b5e;
+    /* margin-top: 12px; */
+}
+
+.midRightOne h2{
+    color: white;
+    line-height: 1;
+}
+
+.midRightTwo{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 11.5vh;
+    /* border: 1px solid white; */
+    background-color: #e5ece5;
+    height: 6vh;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.midRightThree{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 18.8vh;
+    /* border: 1px solid white; */
+    background-color: #e5ece5;
+    height: 6vh;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.midRightFour{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 26vh;
+    /* border: 1px solid white; */
+    background-color: #e5ece5;
+    height: 6vh;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.footer{
+    width: 100%;
+    height: 19vh;
+    /* border: 1px solid red; */
+    margin-top: 2vh;
+}
+
+.footerLeft{
+    width: 66vw;
+    height: 100%;
+    background-color: #c6cdc6;
+    display: inline-block;
+}
+
+.footerRight{
+    width: 15vw;
+    height: 100%;
+    /* background-color: #0a5b5e; */
+    display: inline-block;
+}
+
+.footerLeftOne,.footerLeftTwo,.footerLeftThree,.footerLeftFour{
+    display: inline-block;
+}
+
+.footerLeftOne{
+    width: 19vw;
+    /* background-color: red; */
+    height: 100%;
+    position: relative;
+}
+
+.footerLeftTwo img{
+    width: 11.5vw;
+    /* background-color: #0a5b5e; */
+    height: 26vh;
+    margin-left: 32px;
+    position: absolute;
+    transform: translate(0px,-193px);
+    border-radius: 50% 50% 0px 0px;
+}
+
+.footerLeftThree img{
+    width: 11.5vw;
+    /* background-color: #5e100a; */
+    height: 100%;
+    margin-left: 32px;
+    height: 26vh;
+    position: absolute;
+    transform: translate(196px,-193px);
+    border-radius: 50% 50% 0px 0px;
+
+}
+
+.footerLeftFour img{
+    width: 11.5vw;
+    /* background-color: #540a5e; */
+    height: 100%;
+    margin-left: 32px;
+    height: 26vh;
+    position: absolute;
+    transform: translate(391px,-193px);
+    border-radius: 50% 50% 0px 0px;
+}
+
+.footerContent{
+    position: absolute;
+    width: 100%;
+    /* text-align: center; */
+    padding: 23px;
+}
+
+
+.footerContent h2{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.footerContent p{
+    font-size: 14px;
+}
+
+
+.footerRight{
+    position: relative;
+}
+
+.footerRightContent{
+    position: absolute;
+    margin-top: 19px;
+    font-size: 18px;
+    text-align: end;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.phoneNo{
+    letter-spacing: 2px;
+}
+
+.bootomImage img{
+    position: absolute;
+    height: 80px;
+    margin-left: 73vw;
+    width: 18vw;
+    margin-top: -18px;
+}
+
+p{
+    color: #647970;
+}
