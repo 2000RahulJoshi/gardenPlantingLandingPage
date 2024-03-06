@@ -11,8 +11,10 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 }
 
 .mainContent{
-    height: 80vh;
-    width: 82vw;
+    /* height: 80vh; */
+    /* width: 82vw; */
+    height: 32rem;
+    width: 68rem;
     margin: auto;
     background-color: #f6fdf6;
     margin-top: 10vh;
@@ -20,7 +22,7 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 
 .navBar{
     width: 80%;
-    height:6vh;
+    /* height:6vh; */
     margin-left: auto;
 }
 
@@ -35,14 +37,16 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 
 
 .navBarLeft{
-    width: 34vw;
+    /* width: 34vw; */
+    width: 51%;
     display: inline-block;
     height: 100%;
     padding: 7px;
 }
 
 .navBarMid{
-    width: 19.3vw;
+    /* width: 19.3vw; */
+    width: 30%;
     display: inline-block;
     border: 2px solid grey;
     margin-bottom: 5px;
@@ -61,7 +65,8 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 }
 
 .anchorPadding{
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: 12%;
 }
 
 
@@ -89,7 +94,8 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 
 .middleContainer{
     width: 100%;
-    height: 45vh;
+    /* height: 45vh; */
+    height: 58%;
     margin-top: 50px;
     position: relative;
 }
@@ -104,7 +110,8 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
     width: 20%;
     height: 100%;
     display: inline-block;
-    margin-left: 39px;
+    /* margin-left: 3px; */
+    margin-left: 3%;
     position: relative;
 }
 
@@ -139,13 +146,21 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 }
 
 .midPara{
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    margin-top: 4%;
+}
+
+.midButton {
+    height: 12%;
+    margin-top: 4%;
 }
 
 .midButton button{
-    margin-top: 15px;
-    width: 9vw;
-    height: 5vh;
+    /* margin-top: 15px; */
+    /* width: 9vw; */
+    /* height: 5vh; */
+    width: 25%;
+    height: 100%;
     font-size: 17px;
     font-weight: bolder;
     color: white;
@@ -169,7 +184,8 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
     height: 70%;
     width: 90%;
     margin: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin-top: 23%;
     position: relative;
 }
 
@@ -177,7 +193,8 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
     position: absolute;
     text-align: center;
     width: 100%;
-    padding: 9px;
+    /* padding: 9px; */
+    padding: 4%;
     background-color: #0a5b5e;
 }
 
@@ -190,10 +207,12 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
     position: absolute;
     width: 100%;
     text-align: center;
-    margin-top: 11.5vh;
+    /* margin-top: 11.5vh; */
+    margin-top: 37%;
     background-color: #e5ece5;
-    height: 6vh;
-    padding: 5px;
+    /* height: 6vh; */
+    /* padding: 5px; */
+    padding: 4%;
     font-weight: bolder;
     font-size: 19px;
 }
@@ -202,10 +221,12 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
     position: absolute;
     width: 100%;
     text-align: center;
-    margin-top: 18.8vh;
+    /* margin-top: 18.8vh; */
+    margin-top: 61%;
     background-color: #e5ece5;
-    height: 6vh;
-    padding: 5px;
+    /* height: 6vh; */
+    /* padding: 5px; */
+    padding: 4%;
     font-weight: bolder;
     font-size: 19px;
 }
@@ -214,29 +235,34 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
     position: absolute;
     width: 100%;
     text-align: center;
-    margin-top: 26vh;
+    /* margin-top: 26vh; */
+    margin-top: 85%;
     background-color: #e5ece5;
-    height: 6vh;
-    padding: 5px;
+    /* height: 6vh; */
+    /* padding: 5px; */
+    padding: 4%;
     font-weight: bolder;
     font-size: 19px;
 }
 
 .footer{
     width: 100%;
-    height: 19vh;
+    /* height: 19vh; */
+    height: 23%;
     margin-top: 2vh;
 }
 
 .footerLeft{
-    width: 66vw;
+    /* width: 66vw; */
+    width: 81%;
     height: 100%;
     background-color: #c6cdc6;
     display: inline-block;
 }
 
 .footerRight{
-    width: 15vw;
+    /* width: 15vw; */
+    width: 17%;
     height: 100%;
     display: inline-block;
 }
@@ -246,25 +272,31 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 }
 
 .footerLeftOne{
-    width: 19vw;
+    /* width: 19vw; */
+    width: 27%;
     height: 100%;
     position: relative;
 }
 
+
 .footerLeftTwo img{
-    width: 11.5vw;
-    height: 26vh;
-    margin-left: 32px;
+    /* width: 11.5vw; */
+    /* height: 26vh; */
+    height: 26%;
+    margin-left: 4%;
+    /* margin-left: 32px; */
     position: absolute;
     transform: translate(4px,-193px);
     border-radius: 50% 50% 0px 0px;
 }
 
 .footerLeftThree img{
-    width: 11.5vw;
-    height: 100%;
-    margin-left: 32px;
-    height: 26vh;
+    /* width: 11.5vw; */
+    /* height: 100%; */
+    /* margin-left: 32px; */
+    height: 26%;
+    margin-left: 3.2%;
+    /* height: 26vh; */
     position: absolute;
     transform: translate(200px,-193px);
     border-radius: 50% 50% 0px 0px;
@@ -272,10 +304,12 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 }
 
 .footerLeftFour img{
-    width: 11.5vw;
-    height: 100%;
-    margin-left: 32px;
-    height: 26vh;
+    /* width: 11.5vw; */
+    /* height: 100%; */
+    /* margin-left: 32px; */
+    /* height: 26vh; */
+    height: 26%;
+    margin-left: 3.2%;
     position: absolute;
     transform: translate(395px,-193px);
     border-radius: 50% 50% 0px 0px;
@@ -284,8 +318,10 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 .footerContent{
     position: absolute;
     width: 100%;
-    padding: 23px;
-    margin-left: 10px;
+    /* padding: 23px; */
+    /* margin-left: 10px; */
+    padding: 10%;
+    margin-left: 1%;
 }
 
 
@@ -306,7 +342,8 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 
 .footerRightContent{
     position: absolute;
-    margin-top: 19px;
+    /* margin-top: 19px; */
+    margin-top: 7%;
     font-size: 18px;
     text-align: end;
     line-height: 1.5;
@@ -319,11 +356,13 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
 
 .bootomImage img{
     position: absolute;
-    height: 80px;
+    /* height: 80px; */
     /* margin-left: 73vw; */
+    height: 12%;
     right: 0;
-    width: 18vw;
-    margin-top: -18px;
+    /* width: 18vw; */
+    width: 18%;
+    margin-top: -2%;
 }
 
 
