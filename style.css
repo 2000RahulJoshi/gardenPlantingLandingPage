@@ -10,6 +10,11 @@ https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400
     font-optical-sizing: auto;
 }
 
+body{
+    background-color: #f6fdf6;
+    /* height: 100%; */
+}
+
 .mainContent{
     /* height: 80vh; */
     /* width: 82vw; */
