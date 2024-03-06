@@ -1,29 +1,28 @@
+@import url('
+https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap'
+);
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
 }
-
-
 
 .mainContent{
     height: 80vh;
     width: 82vw;
-    /* border: 1px solid red; */
     margin: auto;
     background-color: #f6fdf6;
     margin-top: 10vh;
-    /* z-index: -1; */
 }
 
 .navBar{
     width: 80%;
     height:6vh;
-    /* border: 1px solid red; */
     margin-left: auto;
-    /* margin-top: 3vh; */
 }
-
 
 .leftGreenContainer{
     height: 63vh;
@@ -31,21 +30,19 @@
     background-color: #0a5b5e;
     position: absolute;
     transform: translate(0px, -65px);
-    /* z-index: -1; */
     border-radius: 0px 0px 16.43rem 0px;
 }
 
 
 .navBarLeft{
     width: 34vw;
-    /* border: 1px solid red; */
     display: inline-block;
     height: 100%;
     padding: 7px;
 }
 
 .navBarMid{
-    width: 19vw;
+    width: 19.3vw;
     display: inline-block;
     border: 2px solid grey;
     margin-bottom: 5px;
@@ -58,7 +55,7 @@
 .navBarLeft a{
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #647970;
     font-weight: 100;
 }
 
@@ -93,7 +90,6 @@
 .middleContainer{
     width: 100%;
     height: 45vh;
-    /* border: 1px solid red; */
     margin-top: 50px;
     position: relative;
 }
@@ -108,8 +104,7 @@
     width: 20%;
     height: 100%;
     display: inline-block;
-    /* background-color: red; */
-    margin-left: 37px;
+    margin-left: 39px;
     position: relative;
 }
 
@@ -135,9 +130,8 @@
 .middleLeftText{
     height: 100%;
     width: 62%;
-    /* border: 2px solid black; */
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 42px;
 }
 
 .middleLeftText{
@@ -174,7 +168,6 @@
 .midRightContent{
     height: 70%;
     width: 90%;
-    /* background-color: #0a5b5e; */
     margin: auto;
     margin-top: 50px;
     position: relative;
@@ -183,11 +176,9 @@
 .midRightOne{
     position: absolute;
     text-align: center;
-    /* border: 1px solid white; */
     width: 100%;
     padding: 9px;
     background-color: #0a5b5e;
-    /* margin-top: 12px; */
 }
 
 .midRightOne h2{
@@ -200,7 +191,6 @@
     width: 100%;
     text-align: center;
     margin-top: 11.5vh;
-    /* border: 1px solid white; */
     background-color: #e5ece5;
     height: 6vh;
     padding: 5px;
@@ -213,7 +203,6 @@
     width: 100%;
     text-align: center;
     margin-top: 18.8vh;
-    /* border: 1px solid white; */
     background-color: #e5ece5;
     height: 6vh;
     padding: 5px;
@@ -226,7 +215,6 @@
     width: 100%;
     text-align: center;
     margin-top: 26vh;
-    /* border: 1px solid white; */
     background-color: #e5ece5;
     height: 6vh;
     padding: 5px;
@@ -237,7 +225,6 @@
 .footer{
     width: 100%;
     height: 19vh;
-    /* border: 1px solid red; */
     margin-top: 2vh;
 }
 
@@ -251,7 +238,6 @@
 .footerRight{
     width: 15vw;
     height: 100%;
-    /* background-color: #0a5b5e; */
     display: inline-block;
 }
 
@@ -261,59 +247,56 @@
 
 .footerLeftOne{
     width: 19vw;
-    /* background-color: red; */
     height: 100%;
     position: relative;
 }
 
 .footerLeftTwo img{
     width: 11.5vw;
-    /* background-color: #0a5b5e; */
     height: 26vh;
     margin-left: 32px;
     position: absolute;
-    transform: translate(0px,-193px);
+    transform: translate(4px,-193px);
     border-radius: 50% 50% 0px 0px;
 }
 
 .footerLeftThree img{
     width: 11.5vw;
-    /* background-color: #5e100a; */
     height: 100%;
     margin-left: 32px;
     height: 26vh;
     position: absolute;
-    transform: translate(196px,-193px);
+    transform: translate(200px,-193px);
     border-radius: 50% 50% 0px 0px;
 
 }
 
 .footerLeftFour img{
     width: 11.5vw;
-    /* background-color: #540a5e; */
     height: 100%;
     margin-left: 32px;
     height: 26vh;
     position: absolute;
-    transform: translate(391px,-193px);
+    transform: translate(395px,-193px);
     border-radius: 50% 50% 0px 0px;
 }
 
 .footerContent{
     position: absolute;
     width: 100%;
-    /* text-align: center; */
     padding: 23px;
+    margin-left: 10px;
 }
 
 
 .footerContent h2{
     font-weight: 600;
     font-size: 22px;
+    color: #083f40;
 }
 
 .footerContent p{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -337,11 +320,30 @@
 .bootomImage img{
     position: absolute;
     height: 80px;
-    margin-left: 73vw;
+    /* margin-left: 73vw; */
+    right: 0;
     width: 18vw;
     margin-top: -18px;
 }
 
-p{
+
+.footerRight p{
+    color: #267c57;
+}
+
+.lorem p{
     color: #647970;
+}
+
+.navBarRight:hover{
+    cursor: pointer;
+}
+
+.navBarRight h1:hover{
+    border-bottom: 1px solid #647970;
+}
+
+a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #647970;
 }
