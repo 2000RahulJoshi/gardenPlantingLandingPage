@@ -34,7 +34,7 @@ body{
     width: 18vw;
     background-color: #0a5b5e;
     position: absolute;
-    transform: translate(0px, -67px);
+    top: 0;
     border-radius: 0px 0px 16.43rem 0px;
     z-index: 1;
 }
